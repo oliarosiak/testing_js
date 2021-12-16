@@ -1,33 +1,60 @@
 
-const pizzaPalace = {
-  pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
-  order(pizzaName, makePizza, onOrderError) {
-    for (const pizza of pizzas) {
-      if (pizzaName !== pizza) {
-        onOrderError(`There is no pizza with a name ${pizzaName} in the assortment.`);
-        return;
-      }
-      makePizza(pizzaName);
-    }    
-  },
-};
-// Change code above this line
+{
+  const firstArray = [26, 94, 36, 18];
+  const secondArray = [17, 61, 23];
+  const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+  // Change code below this line
 
-// Callback for onSuccess
-function makePizza(pizzaName) {
-  return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+  const eachElementInFirstIsEven = firstArray.every(number => {
+    if (number % 2 === 0) {
+      return 1;
+    }
+    return 0;
+  });
+  
+  console.log(eachElementInFirstIsEven);
+
+  const eachElementInFirstIsOdd = firstArray.every((value) => value % 2 === 1);
+  
+  console.log(eachElementInFirstIsOdd);
+
+  //const eachElementInSecondIsEven = secondArray.even((value) => value % 2 === 0);
+  //const eachElementInSecondIsOdd = secondArray.even((value) => value % 2 === 1);
+
+  //const eachElementInThirdIsEven = thirdArray.even((item) => item % 2 === 0);
+  //const eachElementInThirdIsOdd = thirdArray.even((item) => item % 2 === 1);
 }
 
-// Callback for onError
-function onOrderError(error) {
-  return `Error! ${error}`;
-}
 
-// Method calls with callbacks
-pizzaPalace.order('Smoked', makePizza, onOrderError);
-pizzaPalace.order('Four meats', makePizza, onOrderError);
-pizzaPalace.order('Big Mike', makePizza, onOrderError);
-pizzaPalace.order('Vienna', makePizza, onOrderError);
+// const pizzaPalace = {
+//   pizzas: ['Ultracheese', 'Smoked', 'Four meats'],
+//   order(pizzaName, makePizza, onOrderError) {
+//     for (const pizza of pizzas) {
+//       if (pizzaName !== pizza) {
+//         onOrderError(`There is no pizza with a name ${pizzaName} in the assortment.`);
+//         return;
+//       }
+//       makePizza(pizzaName);
+//     }    
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order('Smoked', makePizza, onOrderError);
+// pizzaPalace.order('Four meats', makePizza, onOrderError);
+// pizzaPalace.order('Big Mike', makePizza, onOrderError);
+// pizzaPalace.order('Vienna', makePizza, onOrderError);
 
 
 
