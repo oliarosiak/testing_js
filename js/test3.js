@@ -1,11 +1,22 @@
 {
+  /* Метод window.prompt */
+  let quantity = prompt('Введіть число');
+  quantity = Number(quantity);
+  console.log(quantity);
+  console.log(typeof quantity);
+
+  /* Метод window.confirm */
+  const massage = 'Продовжити підписку?';
+  const should = confirm(massage);
+  console.log(should);
+
   const a = 'Змінна а';
   console.log(a);
 
   const b = 'Змінна б';
   console.log(b);
 
-  console.log(a + b);
+  console.log(a, b);
 }
 
 
