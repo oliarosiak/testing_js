@@ -1,29 +1,39 @@
-
 {
-  const firstArray = [26, 94, 36, 18];
-  const secondArray = [17, 61, 23];
-  const thirdArray = [17, 26, 94, 61, 36, 23, 18];
-  // Change code below this line
+  const a = 'Змінна а';
+  console.log(a);
 
-  const eachElementInFirstIsEven = firstArray.every(number => {
-    if (number % 2 === 0) {
-      return 1;
-    }
-    return 0;
-  });
-  
-  console.log(eachElementInFirstIsEven);
+  const b = 'Змінна б';
+  console.log(b);
 
-  const eachElementInFirstIsOdd = firstArray.every((value) => value % 2 === 1);
+  console.log(a + b);
+}
+
+
+// {
+//   const firstArray = [26, 94, 36, 18];
+//   const secondArray = [17, 61, 23];
+//   const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+//   // Change code below this line
+
+//   const eachElementInFirstIsEven = firstArray.every(number => {
+//     if (number % 2 === 0) {
+//       return 1;
+//     }
+//     return 0;
+//   });
   
-  console.log(eachElementInFirstIsOdd);
+//   console.log(eachElementInFirstIsEven);
+
+//   const eachElementInFirstIsOdd = firstArray.every((value) => value % 2 === 1);
+  
+//   console.log(eachElementInFirstIsOdd);
 
   //const eachElementInSecondIsEven = secondArray.even((value) => value % 2 === 0);
   //const eachElementInSecondIsOdd = secondArray.even((value) => value % 2 === 1);
 
   //const eachElementInThirdIsEven = thirdArray.even((item) => item % 2 === 0);
   //const eachElementInThirdIsOdd = thirdArray.even((item) => item % 2 === 1);
-}
+// }
 
 
 // const pizzaPalace = {
