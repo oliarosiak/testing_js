@@ -31,4 +31,29 @@
   // console.log(color);
 }
 
-console.log(1n < 2);
+{
+  /**
+   *  Приклад з telegram. Результат 4 і 7, 10
+  */
+
+  // let count = 1;
+  // function counter() {
+  //   count = count + 3;
+  //   return count;
+  // }
+
+  // console.log(counter()); //4
+  // console.log(counter()); //7
+  // console.log(counter()); //10
+}
+
+{
+  const button = document.querySelector(".btn");
+
+  button.style.backgroundColor = "tomato";
+  button.style.fontSize = "24px";
+  button.style.textAlign = "center";
+  button.style.borderRadius = '4px';
+
+  console.log(button.style); // inline styles object
+}
