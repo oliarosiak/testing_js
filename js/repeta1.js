@@ -1,13 +1,34 @@
 {
-  const titleEl = document.createElement('h1');
+  /** Модуль 6 - 1 */
+  const titleEl = document.createElement('h2');
   titleEl.classList.add('page-title');
   titleEl.textContent = "Hello world";
 
-  const bodyEl = document.querySelector('body');
-  console.log(bodyEl);
-  bodyEl.prepend(titleEl);
+  //console.log(titleEl);
 
-  console.log(titleEl);
+  /** Спосіб, який придумала я )) */
+
+  // const bodyEl = document.querySelector('body');
+  // console.log(bodyEl);
+  // bodyEl.prepend(titleEl);
+
+  /** Кращий спосіб - показував Репета */
+  document.body.prepend(titleEl);
+
+  const imageEl = document.createElement("img");
+  imageEl.classList.add('page-image');
+  imageEl.src = 'https://picsum.photos/200/300';
+  imageEl.alt = 'рандомна картинка';
+
+  console.log('imageEl:', imageEl);
+
+  const pageTitle = document.querySelector('.page-title');
+
+  pageTitle.appendChild(imageEl)
+
+  //document.body.prepend(imageEl);
+
+  
 }
 
 {
