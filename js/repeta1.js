@@ -1,4 +1,16 @@
 {
+  const titleEl = document.createElement('h1');
+  titleEl.classList.add('page-title');
+  titleEl.textContent = "Hello world";
+
+  const bodyEl = document.querySelector('body');
+  console.log(bodyEl);
+  bodyEl.prepend(titleEl);
+
+  console.log(titleEl);
+}
+
+{
   // /* Метод window.prompt */
   // let quantity = prompt('Введіть число');
   // quantity = Number(quantity);
@@ -48,12 +60,12 @@
 }
 
 {
-  const button = document.querySelector(".btn");
+  // const button = document.querySelector(".btn");
 
-  button.style.backgroundColor = "tomato";
-  button.style.fontSize = "24px";
-  button.style.textAlign = "center";
-  button.style.borderRadius = '4px';
+  // button.style.backgroundColor = "tomato";
+  // button.style.fontSize = "24px";
+  // button.style.textAlign = "center";
+  // button.style.borderRadius = '4px';
 
-  console.log(button.style); // inline styles object
+  // console.log(button.style); // inline styles object
 }
