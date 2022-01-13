@@ -90,3 +90,16 @@
 
   // console.log(button.style); // inline styles object
 }
+
+{
+  // Приклад з telegram - Відповідь: 012each
+  let disitsArray = [1, 2, 3];
+  Array.prototype.each = function () { };
+  let result = '';
+
+  for (let disit in disitsArray) {
+      result += disit;
+  }
+
+  console.log(result);
+}
