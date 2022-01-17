@@ -1,29 +1,13 @@
 body {
 	font-family: "Style Script", cursive;
 	font-size: 20px;
+	padding: 3px;
 }
 
-.main-block {
-	display: flex;
-	flex-direction: row-reverse;
-	background-color: rgb(139, 119, 153);
-	width: 1500px;
-	margin: 0 auto;
+.name {
+	margin: 0;
 }
 
-.about-me {
-	background-color: honeydew;
-	margin-right: 400px;
-}
-
-.test-zone {
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-right: 300px;
-	background-color: wheat;
-}
-
-.choice-number {
-	color: maroon;
-	background-color: mediumorchid;
+.list {
+	margin: 0;
 }
