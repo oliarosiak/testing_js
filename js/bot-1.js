@@ -53,9 +53,38 @@
 }
 /** Задача 1-7 */
 {
+    function sayHi() {
+        console.log('Задача 7:', 'Hello, this is my first function!');
+    }
     
+    sayHi();
 }
 /** Задача 1-8 */
+{    
+    function add(a, b, c) {
+        const result = a + b + c;
+        console.log('Задача 8:', `Addition result equals (Результат додавання 3х чисел:) ${result}`);
+    }
+
+    add(15, 27, 10);
+    add(10, 20, 30);
+    add(5, 10, 15);
+}
 /** Задача 1-9 */
+{
+    function add(a, b, c) {
+        const foo = a + b + c;
+        return foo;
+    }
+    console.log('Задача 9:', '15 -', add(2, 5, 8), '52 -', add(15, 27, 10), '60 -', add(10, 20, 30), '30 -', add(5, 10, 15));
+}
 /** Задача 1-10 */
+{
+    function makeMessage (name, price) {    
+    const message = `You picked ${name}, price per item is ${price} credits`;
+    return message;
+    };
+    console.log('Задача 10:', '1 -', makeMessage('Radar', 6150), '2 -', makeMessage('Scanner', 3500));
+    console.log('Задача 10:', '3 -', makeMessage('Reactor', 8000), '4 -', makeMessage('Engine', 4070));
+}
 
