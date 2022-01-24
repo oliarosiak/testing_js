@@ -208,4 +208,12 @@
     console.log('Задача 20:', 'ok:', checkStorage(100, 50), 'null:', checkStorage(70, 0), 'to large:', checkStorage(100, 130));
 }
 /** Задача 1-21 */
+{
+    function isNumberInRange(start, end, number) {
+        const isInRange = number >= start && number <= end; // Change this line
+
+        return isInRange;
+    }
+    console.log('Задача 20:', 'true:', isNumberInRange(10, 30, 17), 'false:', isNumberInRange(20, 50, 76));
+}
 /** Задача 1-22 */
