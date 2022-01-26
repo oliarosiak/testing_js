@@ -32,7 +32,7 @@
 }
 
 {
-  // /* Метод window.prompt */
+  /* Метод window.prompt */
   // let quantity = prompt('Введіть число');
   // quantity = Number(quantity);
   // console.log(quantity);
@@ -53,15 +53,15 @@
 }
 
 {
-  // const colors = ['tomato', 'teal', 'orange', 'deeppink'];
-  // const max = colors.length - 1;
-  // const min = 0;
+  const colors = ['tomato', 'teal', 'orange', 'deeppink'];
+  const max = colors.length - 1;
+  const min = 0;
 
-  // const index = Math.round(Math.random() * (max - min) + min);
+  const index = Math.round(Math.random() * (max - min) + min);
 
-  // const color = colors[index];
+  const color = colors[index];
 
-  // console.log(color);
+  console.log(color);
 }
 
 {
@@ -69,26 +69,26 @@
    *  Приклад з telegram. Результат 4 і 7, 10
   */
 
-  // let count = 1;
-  // function counter() {
-  //   count = count + 3;
-  //   return count;
-  // }
+  let count = 1;
+  function counter() {
+    count = count + 3;
+    return count;
+  }
 
-  // console.log(counter()); //4
-  // console.log(counter()); //7
-  // console.log(counter()); //10
+  console.log(counter()); //4
+  console.log(counter()); //7
+  console.log(counter()); //10
 }
 
 {
-  // const button = document.querySelector(".btn");
+  const button = document.querySelector(".btn");
 
-  // button.style.backgroundColor = "tomato";
-  // button.style.fontSize = "24px";
-  // button.style.textAlign = "center";
-  // button.style.borderRadius = '4px';
+  button.style.backgroundColor = "tomato";
+  button.style.fontSize = "24px";
+  button.style.textAlign = "center";
+  button.style.borderRadius = '4px';
 
-  // console.log(button.style); // inline styles object
+  console.log(button.style); // inline styles object
 }
 
 {
@@ -103,3 +103,4 @@
 
   console.log(result);
 }
+

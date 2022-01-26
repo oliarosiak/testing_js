@@ -5,8 +5,8 @@
 
 //     for (const element of array) {
 //         if (element === value) {
-//             console.log(true);            
-//         }        
+//             console.log(true);
+//         }
 //     }
 //     console.log(false);
 // }
@@ -19,9 +19,9 @@
 
 // for (let i = start; i <= end; i += 1) {
 //   if (i % 5 === 0) {
-//       number = i;      
-//     break;    
-//   }    
+//       number = i;
+//     break;
+//   }
 // }
 // console.log(number);
 
@@ -43,23 +43,23 @@
 //         if (element % 2 === 0) {
 //             numbers.push(element);
 //         }
-//     }    
-//     console.log(numbers);  
+//     }
+//     console.log(numbers);
 // }
 
 // function getEvenNumbers(start, end) {
-//     let numbers = [];    
+//     let numbers = [];
 //     for (let i = start; i <= end; i += 1) {
 //         if (i % 2 === 0) {
 //             numbers.push(i);
 //         }
 //     }
-//     console.log(numbers);  
+//     console.log(numbers);
 // }
 
 //Задача 27
 // filterArray([12, 24, 8, 41, 76], 20);
-// function filterArray(numbers, value) {  
+// function filterArray(numbers, value) {
 //     const filteredNumbers = [];
     
 //     for (const number of numbers) {
@@ -81,7 +81,7 @@
 //calculateTotalPrice([12, 85, 37, 4]);
 // calculateTotalPrice([164, 48, 291]);
 // function calculateTotalPrice(order) {
-//     let total = 0;    
+//     let total = 0;
 //     for (const element of order) {
 //         total += element;
 //     }
@@ -104,7 +104,7 @@
 // }
 
 // getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
-// function getCommonElements(array1, array2) {  
+// function getCommonElements(array1, array2) {
 //   let newArray = [];
   
 //   for (let i = 0; i <= array1.length; i += 1) {
@@ -125,9 +125,9 @@
 
 //Задача 23
 // filterArray([12, 24, 8, 41, 76], 38);
-// function filterArray(numbers, value) {   
+// function filterArray(numbers, value) {
 //     let massif = [];
-//     for (const number of numbers) {       
+//     for (const number of numbers) {
 //         if (number > value) {
 //             massif.push(number);
 //         }
@@ -181,10 +181,10 @@
 //         let b = longestWord.length;
 
 //         if (a > b) {
-//             longestWord = word;            
-//         }              
-//     }    
-//     console.log(longestWord);   
+//             longestWord = word;
+//         }
+//     }
+//     console.log(longestWord);
 // }
 
 //Задача 20
@@ -223,10 +223,10 @@
 
 //Задача 18
 // calculateTotal(18);
-// function calculateTotal(number) { 
+// function calculateTotal(number) {
 //     let sum = 0;
 //     for (let i = 1; i <= number; i += 1) {
-//         sum += i;        
+//         sum += i;
 //     }
 //     console.log(sum);
 //     // видає сумарний результат, якщо вписати в тіло функції
@@ -279,16 +279,16 @@
 //     // console.log(lastNumber);
 
 //     console.log(massege);
-//     // const deletedArray = array.splice(1, array.length - 2);    
+//     // const deletedArray = array.splice(1, array.length - 2);
 //     // console.log(array);
-//     // console.log(deletedArray); 
+//     // console.log(deletedArray);
 // }
 
 // getExtremeElements(["earth", "mars", "venus", "pluton", "jupiter", "mercuriy"]);
 
 
 // function slugify(title) {
-//     const titleLower = title.toLowerCase();        
+//     const titleLower = title.toLowerCase();
 //     console.log(titleLower);
 
 //     const newTitle = titleLower.split(" ");
