@@ -2,7 +2,7 @@
   /** Модуль 6 - 1 */
   const titleEl = document.createElement('h2');
   titleEl.classList.add('page-title');
-  titleEl.textContent = "Hello world";
+  titleEl.textContent = "My homework page! =)";
 
   //console.log(titleEl);
 
@@ -17,7 +17,8 @@
 
   const imageEl = document.createElement("img");
   imageEl.classList.add('page-image');
-  imageEl.src = 'https://picsum.photos/200/300';
+  imageEl.src = 'https://picsum.photos/600/200';
+  // imageEl.src = 'https://picsum.photos/800';
   imageEl.alt = 'рандомна картинка';
 
   console.log('imageEl:', imageEl);
@@ -64,21 +65,7 @@
   console.log(color);
 }
 
-{
-  /**
-   *  Приклад з telegram. Результат 4 і 7, 10
-  */
 
-  let count = 1;
-  function counter() {
-    count = count + 3;
-    return count;
-  }
-
-  console.log(counter()); //4
-  console.log(counter()); //7
-  console.log(counter()); //10
-}
 
 {
   const button = document.querySelector(".btn");
@@ -91,16 +78,5 @@
   console.log(button.style); // inline styles object
 }
 
-{
-  // Приклад з telegram - Відповідь: 012each
-  let disitsArray = [1, 2, 3];
-  Array.prototype.each = function () { };
-  let result = '';
 
-  for (let disit in disitsArray) {
-      result += disit;
-  }
-
-  console.log(result);
-}
 
