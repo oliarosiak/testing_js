@@ -4,6 +4,10 @@ body {
 	padding: 3px;
 }
 
+a {
+	color: rgb(131, 44, 148);
+}
+
 .name {
 	margin: 0;
 }
