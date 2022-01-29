@@ -13,7 +13,7 @@
     }
     return result;    
   };
-  console.log('Task 1', '/ 12:', divisors(12), '/ 13:',  divisors(13));
+  console.log('Task 1:', '/ 12:', divisors(12), '/ 13:',  divisors(13));
 }
 
 /** Task 2 */

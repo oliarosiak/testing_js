@@ -15,3 +15,22 @@ body {
 .page-image {
 	display: block;
 }
+
+/** Codewars page style */
+.codewars-wrapper {
+	margin-bottom: 10px;
+}
+
+.codewars-title {
+	font-size: 30px;
+	margin: 0;
+}
+
+.codewars-subtitle {
+	font-size: 20px;
+	margin: 0;
+}
+
+.codewars-text {
+	margin: 0;
+}
