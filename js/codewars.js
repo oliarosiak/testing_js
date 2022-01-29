@@ -17,3 +17,25 @@
 }
 
 /** Task 2 */
+{
+  function DNAStrand(dna) {
+    const array = dna.split('');
+    let newArray = [];
+ 
+    array.forEach(element => {
+      if (element === 'A') {
+        newArray.push('T');
+      } else if (element === 'T') {
+        newArray.push('A');
+      } else if (element === 'G') {
+        newArray.push('C');
+      } else if (element === 'C') {
+        newArray.push('G');
+      }
+    });  
+    return newArray.join('');
+  }
+
+  console.log('Task 2:', '/ Початкова строка - "ATTGC":', DNAStrand("ATTGC"));
+  console.log('Task 2:', '/ Початкова строка = "GTAT":', DNAStrand("GTAT"));
+}
